@@ -7,7 +7,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{C459AE57-6BE1-3155-B3AD-4A51C5B55CCB}</ProjectGUID>
+    <ProjectGUID>{E753ED6C-06D0-317F-8041-9371A12F1FC8}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Plugin_Editor</ProjectName>
@@ -67,9 +67,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\..\..\Project\src\Plugins\Plugin\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule W:/Repository/Project/src/Plugins/Plugin/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/wamp/www/BuildServer/Repository/Project/src/Plugins/Plugin/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HW:/Repository/Project/. -BW:/Repository/Cooking/Windows/tmp --check-stamp-file W:\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project/. -BC:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -77,8 +77,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:/Repository/Project/src/Plugins/Plugin/CMakeLists.txt;W:\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;W:\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/wamp/www/BuildServer/Repository/Project/src/Plugins/Plugin/CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wamp\www\BuildServer\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -86,8 +86,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\..\..\..\..\..\Project\src\Plugins\Plugin\Plugin.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="W:/Repository/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
-      <Project>DFD7C4C7-E040-381D-A9EE-D7AAED67FFAD</Project>
+    <ProjectReference Include="C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
+      <Project>610818F5-7A0C-30A9-9EB9-E03FAD9B70E8</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

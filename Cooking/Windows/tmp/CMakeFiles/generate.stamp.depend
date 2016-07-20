@@ -1,8 +1,8 @@
 # CMake generation dependency list for this directory.
-W:/Repository/Project/CMakeLists.txt
+C:/wamp/www/BuildServer/Repository/Project/CMakeLists.txt
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeSystem.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeSystem.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInitialize.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCompiler.cmake
@@ -44,7 +44,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Compiler/IBMCPP-C-Determine
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeFindBinUtils.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCCompiler.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCCompiler.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCXXCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-CXX.cmake
@@ -85,7 +85,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Compiler/IBMCPP-CXX-Determi
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CompilerId/VS-10.vcxproj.in
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeFindBinUtils.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCXXCompiler.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeSystemSpecificInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeGenericSystem.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows.cmake
@@ -95,7 +95,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-C.cma
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeRCCompiler.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeRCCompiler.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeRCInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeTestRCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCommonLanguageInclude.cmake
@@ -106,7 +106,7 @@ C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseImplicitLinkInfo.
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCCompilerABI.c
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCompileFeatures.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCCompiler.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCCompiler.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCCompiler.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCXXInformation.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Compiler/MSVC-CXX.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Platform/Windows-MSVC-CXX.cmake
@@ -120,17 +120,17 @@ C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeDetermineCompileFeatures.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Internal/FeatureTesting.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/Compiler/MSVC-CXX-FeatureTests.cmake
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/feature_tests.cxx
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/feature_tests.cxx
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeCXXCompiler.cmake.in
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
-W:/Repository/Project/CMake/Modules/FindShSDK.cmake
-W:/Repository/Project/CMake/Modules/FindDirectX9.cmake
-W:/Repository/Project/CMake/Modules/FindPkgMacros.cmake
-W:/Repository/Project/CMake/Modules/FindXAudio.cmake
-W:/Repository/Project/CMake/Modules/FindPkgMacros.cmake
-W:/Repository/Project/CMake/Modules/FindXInput.cmake
-W:/Repository/Project/CMake/Modules/FindPkgMacros.cmake
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/3.4.3/CMakeCXXCompiler.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindShSDK.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindDirectX9.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindPkgMacros.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindXAudio.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindPkgMacros.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindXInput.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/Modules/FindPkgMacros.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/FindPackageMessage.cmake
 C:/Program Files (x86)/CMake/share/cmake-3.4/Modules/CMakeParseArguments.cmake
-W:/Repository/Project/CMake/TargetBuildSAAS.cmake
+C:/wamp/www/BuildServer/Repository/Project/CMake/TargetBuildSAAS.cmake

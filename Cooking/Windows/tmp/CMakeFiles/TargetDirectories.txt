@@ -1,7 +1,7 @@
-W:/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/CMakeFiles/Plugin.dir
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/ALL_BUILD.dir
-W:/Repository/Cooking/Windows/tmp/CMakeFiles/ZERO_CHECK.dir
-W:/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir
-W:/Repository/Cooking/Windows/tmp/src/Game/CMakeFiles/BuildSAAS.dir
-W:/Repository/Cooking/Windows/tmp/src/Game/CMakeFiles/Game.dir
-W:/Repository/Cooking/Windows/tmp/src/Extension/CMakeFiles/Extension.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/CMakeFiles/Plugin.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/ALL_BUILD.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/CMakeFiles/ZERO_CHECK.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/CMakeFiles/Plugin_Editor.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/CMakeFiles/BuildSAAS.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/CMakeFiles/Game.dir
+C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Extension/CMakeFiles/Extension.dir

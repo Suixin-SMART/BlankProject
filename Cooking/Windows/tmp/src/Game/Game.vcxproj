@@ -7,7 +7,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{126D6FFB-41DE-3191-BAA3-4A8AC9184DCE}</ProjectGUID>
+    <ProjectGUID>{E388194C-3BCA-3897-869A-B4C37565100B}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Game</ProjectName>
@@ -27,7 +27,7 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Repository\Cooking\Windows\tmp\src\Game\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wamp\www\BuildServer\Repository\Cooking\Windows\tmp\src\Game\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Game.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Game</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
@@ -37,7 +37,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <AdditionalOptions> /EHs-c- %(AdditionalOptions)</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;W:\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\wamp\www\BuildServer\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -53,10 +53,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;NDEBUG;_ITERATOR_DEBUG_LEVEL=0;SH_DEV=1;SH_RELEASE=1;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;W:\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\wamp\www\BuildServer\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;W:\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\wamp\www\BuildServer\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -69,8 +69,8 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>W:/Repository/Cooking/Windows/tmp/src/Game/Release/Game.lib</ImportLibrary>
-      <ProgramDataBaseFile>W:/Repository/Cooking/Windows/tmp/src/Game/Release/Game.pdb</ProgramDataBaseFile>
+      <ImportLibrary>C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/Release/Game.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/Release/Game.pdb</ProgramDataBaseFile>
       <SubSystem>Windows</SubSystem>
       <Version></Version>
     </Link>
@@ -80,9 +80,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\..\Project\src\Game\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule W:/Repository/Project/src/Game/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/wamp/www/BuildServer/Repository/Project/src/Game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HW:/Repository/Project/. -BW:/Repository/Cooking/Windows/tmp --check-stamp-file W:\Repository\Cooking\Windows\tmp\src\Game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project/. -BC:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\tmp\src\Game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -90,8 +90,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:/Repository/Project/src/Game/CMakeLists.txt;W:\Repository\Project\src\Game\CMakeLists.txt;W:\Repository\Project\src\Game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Repository\Cooking\Windows\tmp\src\Game\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/wamp/www/BuildServer/Repository/Project/src/Game/CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Game\CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wamp\www\BuildServer\Repository\Cooking\Windows\tmp\src\Game\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -99,11 +99,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\..\..\..\..\Project\src\Game\Game.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="W:/Repository/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
-      <Project>DFD7C4C7-E040-381D-A9EE-D7AAED67FFAD</Project>
+    <ProjectReference Include="C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
+      <Project>610818F5-7A0C-30A9-9EB9-E03FAD9B70E8</Project>
     </ProjectReference>
-    <ProjectReference Include="W:/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/Plugin.vcxproj">
-      <Project>75D6436F-9771-3936-9A70-8406ADF8552D</Project>
+    <ProjectReference Include="C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/Plugin.vcxproj">
+      <Project>74FB8431-D8B9-3225-A5E3-5A6B80A5BFCC</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

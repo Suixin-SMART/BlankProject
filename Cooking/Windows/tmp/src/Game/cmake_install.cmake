@@ -1,4 +1,4 @@
-# Install script for directory: W:/Repository/Project/src/Game
+# Install script for directory: C:/wamp/www/BuildServer/Repository/Project/src/Game
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
