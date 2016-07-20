@@ -1,4 +1,4 @@
-# Install script for directory: W:/Test/Project/src/Extension
+# Install script for directory: W:/Repository/Project/src/Extension
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

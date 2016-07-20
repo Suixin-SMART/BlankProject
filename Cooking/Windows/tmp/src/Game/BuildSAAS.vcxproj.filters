@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\..\Project\src\Game\CMakeLists.txt" />
-    <CustomBuild Include="..\..\CMakeFiles\8ec0a3065e72e29b7108cd90bbf8f73b\BuildSAAS.rule">
+    <CustomBuild Include="..\..\CMakeFiles\33d830b2782f23b2d7cad131428a6de4\BuildSAAS.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
@@ -11,7 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{507A3BCC-6C04-3D65-BB6E-29C753A1E2E8}</UniqueIdentifier>
+      <UniqueIdentifier>{DFD732B8-F82A-3230-B66D-6EAD6D96ADEF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

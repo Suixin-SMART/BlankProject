@@ -7,7 +7,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{B1A549B2-B9BE-3139-97FB-E4AA2215E3D2}</ProjectGUID>
+    <ProjectGUID>{75D6436F-9771-3936-9A70-8406ADF8552D}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>Plugin</ProjectName>
@@ -27,7 +27,7 @@
   <PropertyGroup Label="UserMacros" />
     <PropertyGroup>
       <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Test\Cooking\Windows\tmp\src\Plugins\Plugin\Release\</OutDir>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\Release\</OutDir>
       <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin.dir\Release\</IntDir>
       <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Plugin</TargetName>
       <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
@@ -67,9 +67,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="..\..\..\..\..\..\Project\src\Plugins\Plugin\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule W:/Test/Project/src/Plugins/Plugin/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule W:/Repository/Project/src/Plugins/Plugin/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HW:/Test/Project/. -BW:/Test/Cooking/Windows/tmp --check-stamp-file W:\Test\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HW:/Repository/Project/. -BW:/Repository/Cooking/Windows/tmp --check-stamp-file W:\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -77,8 +77,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:/Test/Project/src/Plugins/Plugin/CMakeLists.txt;W:\Test\Project\src\Plugins\Plugin\CMakeLists.txt;W:\Test\Project\src\Plugins\Plugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Test\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:/Repository/Project/src/Plugins/Plugin/CMakeLists.txt;W:\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;W:\Repository\Project\src\Plugins\Plugin\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">W:\Repository\Cooking\Windows\tmp\src\Plugins\Plugin\CMakeFiles\generate.stamp</Outputs>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -86,8 +86,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="..\..\..\..\..\..\Project\src\Plugins\Plugin\Plugin.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="W:/Test/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
-      <Project>F64D2C67-7E49-32D9-A650-D8DF17E4B594</Project>
+    <ProjectReference Include="W:/Repository/Cooking/Windows/tmp/ZERO_CHECK.vcxproj">
+      <Project>DFD7C4C7-E040-381D-A9EE-D7AAED67FFAD</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

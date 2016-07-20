@@ -1,4 +1,4 @@
-# Install script for directory: W:/Test/Project
+# Install script for directory: W:/Repository/Project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("W:/Test/Cooking/Windows/tmp/src/Plugins/cmake_install.cmake")
-  include("W:/Test/Cooking/Windows/tmp/src/Extension/cmake_install.cmake")
-  include("W:/Test/Cooking/Windows/tmp/src/Game/cmake_install.cmake")
+  include("W:/Repository/Cooking/Windows/tmp/src/Plugins/cmake_install.cmake")
+  include("W:/Repository/Cooking/Windows/tmp/src/Extension/cmake_install.cmake")
+  include("W:/Repository/Cooking/Windows/tmp/src/Game/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "W:/Test/Cooking/Windows/tmp/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "W:/Repository/Cooking/Windows/tmp/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

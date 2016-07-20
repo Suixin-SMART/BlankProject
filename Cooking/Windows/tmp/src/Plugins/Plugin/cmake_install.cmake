@@ -1,4 +1,4 @@
-# Install script for directory: W:/Test/Project/src/Plugins/Plugin
+# Install script for directory: W:/Repository/Project/src/Plugins/Plugin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

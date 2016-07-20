@@ -1,4 +1,4 @@
-# Install script for directory: W:/Test/Project/src/Plugins
+# Install script for directory: W:/Repository/Project/src/Plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("W:/Test/Cooking/Windows/tmp/src/Plugins/Plugin/cmake_install.cmake")
+  include("W:/Repository/Cooking/Windows/tmp/src/Plugins/Plugin/cmake_install.cmake")
 
 endif()
 
