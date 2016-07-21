@@ -18,7 +18,7 @@
 BUILD_CONFIG_NAME:UNINITIALIZED=Windows_Dx9_Steam
 
 //No help, variable specified on the command line.
-BUILD_FILE_PATH:UNINITIALIZED=C:\wamp\www\BuildServer\BuildFiles\Jak_Test.build
+BUILD_FILE_PATH:UNINITIALIZED=C:\wamp\www\BuildServer\BuildFiles\shconfig_PC.build
 
 //No help, variable specified on the command line.
 CMAKE_CONFIGURATION_TYPES:UNINITIALIZED=Release

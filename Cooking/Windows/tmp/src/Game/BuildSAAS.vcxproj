@@ -59,7 +59,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <CustomBuild Include="..\..\CMakeFiles\28b15e04de7dd7125ee5d143293c964c\BuildSAAS.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-W:\Shine_jmartin\DevLine_IOS\Build\Win32_VS2010\Compiled\Bin\x86\Tools\ShGamePackager.exe --copy C:\wamp\www\BuildServer\BuildFiles\Jak_Test.build Windows_Dx9_Steam C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/Release/Game.exe
+W:\Shine_jmartin\DevLine_IOS\Build\Win32_VS2010\Compiled\Bin\x86\Tools\ShGamePackager.exe --copy C:\wamp\www\BuildServer\BuildFiles\shconfig_PC.build Windows_Dx9_Steam C:/wamp/www/BuildServer/Repository/Cooking/Windows/tmp/src/Game/Release/Game.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
