@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Project\src\Extension\dllmain.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Project\src\Extension\Extension.cpp">
+      <Filter>Extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Project\src\Extension\Extension.h">
+      <Filter>Extension</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\Project\src\Extension\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Plugins\Plugin\Plugin_Editor.dir\$(Configuration)\Plugin.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{948E6B3B-4AD4-3D21-89DD-2E9BA932ECB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extension">
+      <UniqueIdentifier>{9A85F881-5435-3B87-A758-60E796AA8970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dll">
+      <UniqueIdentifier>{5B206602-EF31-309C-84BB-4B4DEEBA7670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{AB66DB0D-87F6-3561-9DF0-A3CDE73AFD8C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

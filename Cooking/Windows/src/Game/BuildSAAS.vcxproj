@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{25A93059-00C2-3C68-81DC-F83EBF7C7E81}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>BuildSAAS</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Shine_jmartin\DevLine_IOS\Standalone\Dev\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;C:\wamp\www\BuildServer\Repository\Project\src\Game\..\Plugins;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\Project\src\Game\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/wamp/www/BuildServer/Repository/Project/src/Game/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project -BC:/wamp/www/BuildServer/Repository/Cooking/Windows --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/wamp/www/BuildServer/Repository/Project/src/Game/CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Game\CMakeLists.txt;C:\wamp\www\BuildServer\Repository\Project\src\Game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\CMakeFiles\8c67311e374f34ceeee4586ab77fc7d6\BuildSAAS.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+W:\Shine_jmartin\DevLine_IOS\Build\Win32_VS2010\Compiled\Bin\x86\Tools\ShGamePackager.exe --copy C:\wamp\www\BuildServer\BuildFiles\47_Array.build Finale C:/wamp/www/BuildServer/Repository/Cooking/Windows/src/Game/Release/Game.exe
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/wamp/www/BuildServer/Repository/Cooking/Windows/CMakeFiles/8c67311e374f34ceeee4586ab77fc7d6/BuildSAAS.rule;C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\Release\Game.exe;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\CMakeFiles\BuildSAAS</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CMakeFiles\BuildSAAS" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/wamp/www/BuildServer/Repository/Cooking/Windows/ZERO_CHECK.vcxproj">
+      <Project>2DC7179E-2171-3C6B-82E8-247E1CFA4C24</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/wamp/www/BuildServer/Repository/Cooking/Windows/src/Game/Game.vcxproj">
+      <Project>F4E9F4AD-F302-31DA-8A61-8942F3368CDB</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
