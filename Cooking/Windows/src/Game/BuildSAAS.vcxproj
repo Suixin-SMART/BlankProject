@@ -43,7 +43,7 @@
     <CustomBuild Include="..\..\..\..\Project\src\Game\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/wamp/www/BuildServer/Repository/Project/src/Game/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project -BC:/wamp/www/BuildServer/Repository/Cooking/Windows --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project/. -BC:/wamp/www/BuildServer/Repository/Cooking/Windows --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\src\Game\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -59,7 +59,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <CustomBuild Include="..\..\CMakeFiles\8c67311e374f34ceeee4586ab77fc7d6\BuildSAAS.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-W:\Shine_jmartin\DevLine_IOS\Build\Win32_VS2010\Compiled\Bin\x86\Tools\ShGamePackager.exe --copy C:\wamp\www\BuildServer\BuildFiles\47_Array.build Finale C:/wamp/www/BuildServer/Repository/Cooking/Windows/src/Game/Release/Game.exe
+W:\Shine_jmartin\DevLine_IOS\Build\Win32_VS2010\Compiled\Bin\x86\Tools\ShGamePackager.exe --copy C:\wamp\www\BuildServer\BuildFiles\46_Array.build Finale C:/wamp/www/BuildServer/Repository/Cooking/Windows/src/Game/Release/Game.exe
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

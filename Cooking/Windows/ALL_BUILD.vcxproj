@@ -43,7 +43,7 @@
     <CustomBuild Include="..\..\Project\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/wamp/www/BuildServer/Repository/Project/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project -BC:/wamp/www/BuildServer/Repository/Cooking/Windows --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/wamp/www/BuildServer/Repository/Project/. -BC:/wamp/www/BuildServer/Repository/Cooking/Windows --check-stamp-file C:\wamp\www\BuildServer\Repository\Cooking\Windows\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
